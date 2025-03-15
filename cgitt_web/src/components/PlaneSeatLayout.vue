@@ -380,6 +380,7 @@ watch(
   font-size: 0.85rem;
   transition: all 0.2s ease;
   background-color: white;
+  color: black;
 }
 
 .seat.aisle-gap {
