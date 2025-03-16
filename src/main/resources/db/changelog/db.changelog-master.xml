@@ -53,7 +53,112 @@
             <column name="economy_class_price" value="50"/>
             <column name="seats_taken" value="100"/>
         </insert>
+        <insert tableName="flights_table">
+            <column name="aircraft" value="Airbus A320"/>
+            <column name="current_location" value="Germany"/>
+            <column name="destination" value="France"/>
+            <column name="departure" valueDate="2025-03-10"/>
+            <column name="arrival" valueDate="2025-03-10"/>
+            <column name="departure_time" valueDate="09:00:00"/>
+            <column name="arrival_time" valueDate="11:00:00"/>
+            <column name="flight_time" value="2"/>
+            <column name="first_class_price" value="150"/>
+            <column name="economy_class_price" value="70"/>
+            <column name="seats_taken" value="120"/>
+        </insert>
+        <insert tableName="flights_table">
+            <column name="aircraft" value="Boeing 777"/>
+            <column name="current_location" value="USA"/>
+            <column name="destination" value="Canada"/>
+            <column name="departure" valueDate="2025-04-01"/>
+            <column name="arrival" valueDate="2025-04-01"/>
+            <column name="departure_time" valueDate="13:00:00"/>
+            <column name="arrival_time" valueDate="16:00:00"/>
+            <column name="flight_time" value="3"/>
+            <column name="first_class_price" value="200"/>
+            <column name="economy_class_price" value="100"/>
+            <column name="seats_taken" value="150"/>
+        </insert>
+        <insert tableName="flights_table">
+            <column name="aircraft" value="Airbus A380"/>
+            <column name="current_location" value="UK"/>
+            <column name="destination" value="Australia"/>
+            <column name="departure" valueDate="2025-05-15"/>
+            <column name="arrival" valueDate="2025-05-16"/>
+            <column name="departure_time" valueDate="22:00:00"/>
+            <column name="arrival_time" valueDate="06:00:00"/>
+            <column name="flight_time" value="8"/>
+            <column name="first_class_price" value="300"/>
+            <column name="economy_class_price" value="150"/>
+            <column name="seats_taken" value="200"/>
+        </insert>
+        <insert tableName="flights_table">
+            <column name="aircraft" value="Boeing 737"/>
+            <column name="current_location" value="Italy"/>
+            <column name="destination" value="Greece"/>
+            <column name="departure" valueDate="2025-06-20"/>
+            <column name="arrival" valueDate="2025-06-20"/>
+            <column name="departure_time" valueDate="08:00:00"/>
+            <column name="arrival_time" valueDate="10:00:00"/>
+            <column name="flight_time" value="2"/>
+            <column name="first_class_price" value="120"/>
+            <column name="economy_class_price" value="60"/>
+            <column name="seats_taken" value="130"/>
+        </insert>
+        <insert tableName="flights_table">
+            <column name="aircraft" value="Boeing 787"/>
+            <column name="current_location" value="Japan"/>
+            <column name="destination" value="South Korea"/>
+            <column name="departure" valueDate="2025-07-10"/>
+            <column name="arrival" valueDate="2025-07-10"/>
+            <column name="departure_time" valueDate="12:00:00"/>
+            <column name="arrival_time" valueDate="14:00:00"/>
+            <column name="flight_time" value="2"/>
+            <column name="first_class_price" value="180"/>
+            <column name="economy_class_price" value="90"/>
+            <column name="seats_taken" value="110"/>
+        </insert>
+        <insert tableName="flights_table">
+            <column name="aircraft" value="Airbus A350"/>
+            <column name="current_location" value="Brazil"/>
+            <column name="destination" value="Argentina"/>
+            <column name="departure" valueDate="2025-08-25"/>
+            <column name="arrival" valueDate="2025-08-25"/>
+            <column name="departure_time" valueDate="10:00:00"/>
+            <column name="arrival_time" valueDate="12:00:00"/>
+            <column name="flight_time" value="2"/>
+            <column name="first_class_price" value="160"/>
+            <column name="economy_class_price" value="80"/>
+            <column name="seats_taken" value="140"/>
+        </insert>
+        <insert tableName="flights_table">
+            <column name="aircraft" value="Embraer 190"/>
+            <column name="current_location" value="Mexico"/>
+            <column name="destination" value="USA"/>
+            <column name="departure" valueDate="2025-09-05"/>
+            <column name="arrival" valueDate="2025-09-05"/>
+            <column name="departure_time" valueDate="14:00:00"/>
+            <column name="arrival_time" valueDate="16:00:00"/>
+            <column name="flight_time" value="2"/>
+            <column name="first_class_price" value="140"/>
+            <column name="economy_class_price" value="70"/>
+            <column name="seats_taken" value="90"/>
+        </insert>
+        <insert tableName="flights_table">
+            <column name="aircraft" value="Boeing 757"/>
+            <column name="current_location" value="Russia"/>
+            <column name="destination" value="China"/>
+            <column name="departure" valueDate="2025-10-12"/>
+            <column name="arrival" valueDate="2025-10-12"/>
+            <column name="departure_time" valueDate="16:00:00"/>
+            <column name="arrival_time" valueDate="20:00:00"/>
+            <column name="flight_time" value="4"/>
+            <column name="first_class_price" value="250"/>
+            <column name="economy_class_price" value="125"/>
+            <column name="seats_taken" value="160"/>
+        </insert>
     </changeSet>
+
 
 </databaseChangeLog>
 
