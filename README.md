@@ -6,4 +6,5 @@ Selleks, et käivitada veebirakendust, on vaja vahetada andmebaasi omadused (por
 
 ## Docs
 Selle projekti tegemiseks läks mul kolm päeva. Esimesel päeval tegin back-end API ja seadistasin Liquibase'i, järgmised kaks päeva tegelesin front-end-iga ning back-endi lisamisega.
+
 ChatGPT-d kasutasin selleks, et teha istekohtade valimise front-end (ainult stiilid, loogika kirjutasin ise) ning see aitas mind vigade parandamisel soovituse algoritmi kirjutamisel.
