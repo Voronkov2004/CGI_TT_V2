@@ -20,3 +20,5 @@ Selle projekti tegemiseks läks mul kolm päeva. Esimesel päeval tegin back-end
 ChatGPT-d kasutasin selleks, et teha istekohtade valimise front-end (ainult stiilid, loogika kirjutasin ise) ning see aitas mind vigade parandamisel soovituse algoritmi kirjutamisel.
 
 Võimalikud filtrid, mida ma lisasin: otsing sihtkoha ja lähtekoha järgi (mõlemad asukohad peavad olema määratud), otsing kuupäeva järgi (kui väljumiskuupäev ja saabumiskuupäev on määratud), otsing kuupäeva, sihtkoha ja lähtekoha järgi, otsing kõigi parameetrite järgi (nagu eelmine, aga kui inimeste arv on sisestatud). See tagastab kõik reisid, kus maksimaalne inimeste arv on suurem kui broneeritud istekohtade arv + inimeste arv. Samuti saab otsida ainult inimeste arvu alusel.
+
+Ma tegin juba paar sarnast testülesannet ja sellega mul palju raskusi ei olnud. Ainus, mida tahan esile tõsta, on see, et seekord proovisin kasutada Liquibase'i ja mul läks üsna palju aega selle seadistamiseks ja sellest tehnoloogiast aru saamiseks.
